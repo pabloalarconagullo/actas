@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Actas de reunión</title>
+  <meta name="description" content="Graba, transcribe y resume reuniones con clientes.">
+  <meta name="theme-color" content="#1f2933">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="appbar">
+    <a class="brand" href="#/"><img src="icon.svg" alt="" width="22" height="22"> Actas</a>
+    <nav>
+      <a href="#/">Reuniones</a>
+      <a href="#/ajustes">Ajustes</a>
+    </nav>
+  </header>
+  <main id="view"></main>
+  <div id="toasts" aria-live="polite"></div>
+  <div id="print-area"></div>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "Actas de reunión",
+  "short_name": "Actas",
+  "description": "Graba, transcribe y resume reuniones con clientes.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f4f6",
+  "theme_color": "#1f2933",
+  "lang": "es",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
